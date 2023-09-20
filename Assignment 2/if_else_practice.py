@@ -5,5 +5,13 @@
 #The else should read: Else print out "10 is less than 10"
 
 def main():
-
+    NUMBA = 10
+    if int(NUMBA) > 12:
+        print(NUMBA, "is greater than 12")
+    elif int(NUMBA) > 11:
+        print(NUMBA, "is greater than 11")
+    elif int(NUMBA) == 10:
+        print(NUMBA, "is equal to 10")
+    else:
+        print(NUMBA, "is less than 10")
 main()

@@ -17,35 +17,40 @@ def main():
 	
     #Start with this one! We have a compilation error :(
     #Side note: you can put these statements in parentheses or not. it's up to you.
-    if (5 > 3):
-        print("5 is greater than 3")
-    
-    #There are multiple correct answers and adjustments to this one 
-    isFive = 5
-    if isFive > 5:
-        print("isFive is greater than 5")
+    NUMBER = input("Pick a number 0-10")
+    if int(NUMBER) > 3:
+        print(NUMBER, "is greater than 3")
+    elif int(NUMBER) == 3:
+        print("3 is equal to 3")
     else:
-        print("isFive is less than 5")
-
+        print(NUMBER,"is less than 3")
+    #There are multiple correct answers and adjustments to this one 
+    isFive = input("Pick a number 0-100")
+    if int(isFive) > 5:
+        print(isFive, "is greater than 5")
+    elif int(isFive) == 5:
+        print("5 is equal to 5")
+    else:
+        print(isFive, "is less than 5")
     #more multiple correct answers. Similar to the first. Adjust as perceived 
-    toCheck = 4
-    if toCheck > 5:
+    toCheck = input("Pick a NUMBBERR!!!!!!! 0-20!")
+    if int(toCheck) > 5:
         print(toCheck, "is greater than 5.")
-    elif toCheck < 3:
-	    print(toCheck)
+    elif int(toCheck) < 3:
+	    print(toCheck, "is less than 3")
     else:
         print(toCheck, "is 3")
 
     #Is it really printing the BEST option though? Rearrange these as you see fit
-    toCheck = 5
-    if toCheck < 6:
-        print("toCheck is less than 6")
-    elif toCheck > 7:
-        print("toCheck is greater than 7")
-    elif toCheck == 5:
-        print("toCheck is 5")
+    numberz = input("Pick a number 0-100")
+    if int(numberz) < 5:
+        print(numberz," is less than 5")
+    elif int(numberz) > 5:
+        print(numberz, "is greater than 5")
+    elif int(numberz) == 5:
+        print(numberz, "is 5")
     else:
-        print("toCheck is invalid")
+        print(numberz, "is invalid")
     
     
     

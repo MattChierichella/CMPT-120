@@ -9,9 +9,14 @@
 
 #additional instructions: instead of setting our variable to 10, what if we asked the user for the variable and used that value in our comparisons?
 def main():
-    Numba = 10
-    if Numba > 12:
-        print("10 is greater than 12")
-    elif Numba > 11:
-        print("10 is greater than 11")
+    NUMBA = input("Pick a number 0-20")
+    if int(NUMBA) > 12:
+        print(NUMBA, "is greater than 12")
+    elif int(NUMBA) > 11:
+        print(NUMBA, "is greater than 11")
+    elif int(NUMBA) == 10:
+        print(NUMBA, "is equal to 10")
+    else:
+        print(NUMBA, "is less than 10")
+
 main()
