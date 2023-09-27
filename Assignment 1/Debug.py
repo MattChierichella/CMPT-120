@@ -1,33 +1,7 @@
-
-#Assignment 1: Debug.py
-#Fix any syntax errors you can spot and fulfill any other requests
-def main():
-    print("hello")
-    print(3)
-    print(10 + 10)
-
-
-    #insert your name in this string below
-    print("My name is Matthew")
-    #this is printing a string and not an integer. how do we fix it?
-    print(50)
-    #make sure this one prints out the sum
-    print(2 + 2)
-
-    #insert your name into this variable
-    name = "Matthew"
-    print("Hello, my name is ",name)
-
-    #insert your best friend's name here and have it print out
-    name2 = "Conor"
-    print("Hello, my best friend's name is ",name2)
-    
-    #put your age here
-    age = 19
-    print("I'm " + name + " and i'm " + str(age) + " years old")
-    
- 
-   
-
-main()
-
+animal = ["fish", "dog", "cat", "horse", "bird", "lion", "tiger"]
+speslist = []
+x = input("Pick a letter!")
+for x in speslist:
+    if x in speslist:
+        speslist.append(speslist)
+print(speslist)
