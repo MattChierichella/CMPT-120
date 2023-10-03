@@ -1,13 +1,15 @@
 def main():
     
     #Can you print out "Hello" 8 times? I gave you a tiny hint to start...
-    for x in range(?):
+    for x in range(8):
+        print("Hello")
         
     #What about as a while loop?
-    loops = ?
-    while (loops < ?):
-        
-    
+    loops = "Hello"
+    i = 0
+    while (i < 8):
+        print(loops)
+        i + 1
     #The loop iterations are one behind in a non-programming counting way... how can we fix this?
     count = 0
     while (count < 3):   
