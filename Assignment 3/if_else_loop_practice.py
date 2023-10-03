@@ -11,6 +11,11 @@ else (the number is less than 5)
 '''
 
 def main():
-    
+    numbahs = [4, 6, 19, 46, 12, 24, 49, 33, 17]
+    for x in range(9):
+        if numbahs > 35:
+            print("Greater than 35")
+
+
     
 main()

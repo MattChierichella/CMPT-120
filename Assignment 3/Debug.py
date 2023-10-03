@@ -9,25 +9,27 @@ def main():
     i = 0
     while (i < 8):
         print(loops)
-        i + 1
+        i = i + 1
     #The loop iterations are one behind in a non-programming counting way... how can we fix this?
     count = 0
-    while (count < 3):   
+    while (count < 4):
         print("While loop iteration", count)
         count = count + 1
         
     #Same deal here!
-    for x in range(3):
+    for x in range(4):
         print("For loop iteration:", x)
      
     #Uh oh I messed up and made an infinite loop... so silly of me!   
-    endless = 4    
+    endless = 4
     while (endless < 5):
         print("I'm stuck in this loop!!!!")
+        endless = endless + 1
+
     
     #print out your last name one letter at a time
-    for x in "":
-        print(?)
+    for x in "Chierichella":
+        print(x)
        
      #aw i suck i made another infinite loop.. use that thing I taught you about to get out once it prints once... starts with a b... br....
     found == False    
