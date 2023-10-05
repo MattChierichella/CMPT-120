@@ -11,10 +11,16 @@ else (the number is less than 5)
 '''
 
 def main():
-    numbahs = [4, 6, 19, 46, 12, 24, 49, 33, 17]
-    for x in range(9):
-        if numbahs > 35:
+    y = [4, 6, 19, 46, 12, 24, 49, 33, 17]
+    for x in range(len(y)):
+        if int(x) > 35:
             print("Greater than 35")
+        elif 20 <= int(x) <= 35:
+            print("between 20-35")
+        elif 5 <= int(x) <= 20:
+            print("between 5 and 20")
+        else:
+            print("the number is less than 5")
 
 
     
