@@ -7,7 +7,7 @@ def printName(x):
 
 def addition(x, y):
     #add x and y together and return them
-    print(y, x)
+    print(x + y)
     return
 def smaller(i, j):
     #if i is smaller than j, return i
