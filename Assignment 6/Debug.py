@@ -11,8 +11,10 @@ class Employee:
         
 class Cake:
     #can you fill out the rest of this for me? im dumb
-    #the cake needs to have the cake flavor and cake frosting stored
-
+    #the cake needs to have the c def __int__(self, flavor, frosting):
+    def __int__(self, flavor, frosting):
+        self.flavor = flavor
+        self.frosting = frosting
 class Cat:
     def __init__(self, name, age, fur_length):
         self.name = name
@@ -33,21 +35,23 @@ class Car:
         self.color = color
         
     #create your own function! what do you want it to do?
-    
-   
+    def CarGuess(self):
+        if self.model == "Altima":
+            print("Your car is a Nissan Altima")
+        else:
+            print("Hmm that's a car I haven't heard of that car before.")
 def main():
     #fill this one out with a dog's name and age.. can be your dog, friend's dog, etc
-    newDog = Dog(? , ?)
-    print(dog1.name, dog1.age)
+    newDog = Dog("Fiona", 11)
+    print(newDog.name, newDog.age)
     
     #and what about a new employee
-    newEmployee =
+    newEmployee = Employee("Julia", 20133579, "Chemistry")
     #how would we print out each of the variables from newEmployee?
-    print()
+    print(newEmployee.name, newEmployee.idNumber, newEmployee.department)
     
     #now create and print out a cake you make
-    
-    
+    newCake = Cake()
     
     #and now create another cake and print it out
     
