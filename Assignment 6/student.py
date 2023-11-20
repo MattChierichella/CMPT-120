@@ -23,16 +23,44 @@ create a function because this college is a wacky one- every day they generate a
 4. if not, print "Loser!"
 (disclosure: obviously there's a very small chance of your generated number matching the student id number. I just want to see that you're generating and comparing properly)
 '''
+import random
+
 
 class student:
-    
-    
-    
-    
-    
+    def __init__(self, name, studentid, year, major, gpa):
+        self.name = name
+        self.studentid = studentid
+        self.year = year
+        self.major = major
+        self.gpa = gpa
+    def honorscheck(self):
+        if self.gpa >= 3.5:
+            return(True)
+        else:
+            return(False)
+    def freefood(self):
+        randnum = random.randint(10000, 99999)
+        if randnum == self.studentid:
+            return((self.name), "won free food!")
+        else:
+            return("I guess you're starving :(")
+
     
 def main():
     #create three students and check if they get free lunch and if they qualify for honors
-    
+    stud1 = student("Matthew", 20146, "Sophomore","Criminal Justice", 3.5)
+    stud2 = student("Julia", 20133, "Junior", "Biochemistry", 1.4)
+    stud3 = student("Conor", 20147, "Sophomore", "Political Science", 3.9)
+    print(stud1.honorscheck())
+    print(stud2.honorscheck())
+    print(stud3.honorscheck())
+
+    print(stud1.freefood())
+    print(stud2.freefood())
+    print(stud3.freefood())
+
+
+
+
     
 main()
